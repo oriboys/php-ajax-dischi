@@ -1,63 +1,63 @@
 <?php
   $dischi = [
     [
-      'titolo' => 'film Uno',
+      'titolo' => 'disco Uno',
       'anno' => '1992',
-      'genere' => 'azione',
+      'genere' => 'rock',
       'copertina' => "https://pbs.twimg.com/profile_images/841918322954362881/iHwiVw5Q.jpg"
     ],
     [
-      'titolo' => 'film due',
+      'titolo' => 'disco due',
       'anno' => '1990',
-      'genere' => 'thriller',
+      'genere' => 'pop',
       'copertina' => "https://pbs.twimg.com/profile_images/841918322954362881/iHwiVw5Q.jpg"
     ],
     [
-      'titolo' => 'film tre',
+      'titolo' => 'disco tre',
       'anno' => '1987',
-      'genere' => 'azione',
+      'genere' => 'rock',
       'copertina' => "https://pbs.twimg.com/profile_images/841918322954362881/iHwiVw5Q.jpg"
     ],
     [
-      'titolo' => 'film quattro',
+      'titolo' => 'disco quattro',
       'anno' => '1980',
-      'genere' => 'avventura',
+      'genere' => 'classica',
       'copertina' => "https://pbs.twimg.com/profile_images/841918322954362881/iHwiVw5Q.jpg"
     ],
     [
-      'titolo' => 'film cinque',
+      'titolo' => 'disco cinque',
       'anno' => '2000',
-      'genere' => 'azione',
+      'genere' => 'rock',
       'copertina' => "https://pbs.twimg.com/profile_images/841918322954362881/iHwiVw5Q.jpg"
     ],
     [
-      'titolo' => 'film sei',
+      'titolo' => 'disco sei',
       'anno' => '2003',
-      'genere' => 'romantico',
+      'genere' => 'indie',
       'copertina' => "https://pbs.twimg.com/profile_images/841918322954362881/iHwiVw5Q.jpg"
     ],
     [
-      'titolo' => 'film sette',
+      'titolo' => 'disco sette',
       'anno' => '2005',
-      'genere' => 'romantico',
+      'genere' => 'indie',
       'copertina' => "https://pbs.twimg.com/profile_images/841918322954362881/iHwiVw5Q.jpg"
     ],
     [
-      'titolo' => 'film otto',
+      'titolo' => 'disco otto',
       'anno' => '2008',
-      'genere' => 'thriller',
+      'genere' => 'pop',
       'copertina' => "https://pbs.twimg.com/profile_images/841918322954362881/iHwiVw5Q.jpg"
     ],
     [
-      'titolo' => 'film nove',
+      'titolo' => 'disco nove',
       'anno' => '1999',
-      'genere' => 'azione',
+      'genere' => 'rock',
       'copertina' => "https://pbs.twimg.com/profile_images/841918322954362881/iHwiVw5Q.jpg"
     ],
     [
-      'titolo' => 'film dieci',
+      'titolo' => 'disco dieci',
       'anno' => '1963',
-      'genere' => 'thriller',
+      'genere' => 'pop',
       'copertina' => "https://pbs.twimg.com/profile_images/841918322954362881/iHwiVw5Q.jpg"
     ],
   ];
