@@ -1,0 +1,19 @@
+main {
+  width: 80%;
+  height: calc(100% - 200px);
+  margin: auto;
+  padding-top: 30px;
+  background-color: rgb(179, 36, 22);
+  overflow-y:  auto;
+  @include flex(space-between);
+  flex-wrap: wrap;
+
+  & div {
+    flex-basis: calc(100% / 4);
+    margin-bottom: 20px;
+    margin-right:  20px;
+    margin-left:  20px;
+    @include flex(center);
+    flex-direction: column;
+  }
+}

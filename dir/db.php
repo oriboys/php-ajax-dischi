@@ -61,8 +61,3 @@ $dischi = [
     'copertina' => "https://pbs.twimg.com/profile_images/841918322954362881/iHwiVw5Q.jpg"
   ],
 ];
-
-
-
-  header('Content-Type:application/json');
-  echo json_encode($dischi);

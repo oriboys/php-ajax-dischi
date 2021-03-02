@@ -4,13 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="dir/style.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
 <body>
 
 
-  <script type="text/javascript" src="dir/vue.js">
+  <div id="cont">
+    <header>
+      <h1>Database dischi</h1>
+      <select id="scelta" @click='seleziona'class="" name="">
+        <option value="all">all</option>
+        <option :value="genere" v-for="genere in generi">{{genere}}</option>
+      </select>
+    </header>
+    <main>
+      <div class=""  v-for="(disco, index) in dischi" v-if="genChosen == 'all' || disco.genere.includes(genChosen)">
+        <img :src="disco.copertina" alt="">
+        <h3>{{disco.titolo}}</h3>
+        <p>{{disco.anno}}</p>
+        <p>{{disco.genere}}</p>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+  </div>
+
+
+  <script type="text/javascript" src="vue.js">
 
   </script>
 </body>

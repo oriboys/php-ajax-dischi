@@ -7,7 +7,34 @@
   \********************/
 /***/ (() => {
 
+var prova = new Vue({
+  el: "#cont",
+  data: {
+    generi: [],
+    genChosen: 'all',
+    dischi: []
+  },
+  mounted: function mounted() {
+    var _this = this;
 
+    axios.get('http://localhost:8888/1-03/php-ajax-dischi/dir/server.php').then(function (result) {
+      _this.dischi = result.data;
+
+      _this.dischi.forEach(function (item) {
+        if (_this.generi.includes(item.genere) == false) {
+          _this.generi.push(item.genere);
+        }
+      });
+
+      console.log(_this.generi);
+    });
+  },
+  methods: {
+    seleziona: function seleziona() {
+      this.genChosen = document.getElementById('scelta').value;
+    }
+  }
+});
 
 /***/ }),
 
