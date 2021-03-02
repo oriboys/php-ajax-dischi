@@ -15,5 +15,8 @@ main {
     margin-left:  20px;
     @include flex(center);
     flex-direction: column;
+    & img {
+      border-radius: 50%;
+    }
   }
 }
