@@ -17,7 +17,7 @@ var prova = new Vue({
   mounted: function mounted() {
     var _this = this;
 
-    axios.get('http://localhost:8888/1-03/php-ajax-dischi/dir/server.php').then(function (result) {
+    axios.get('dir/server.php').then(function (result) {
       _this.dischi = result.data;
 
       _this.dischi.forEach(function (item) {
